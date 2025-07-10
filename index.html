@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Simple Tribute Page</title>
+
+    <style>
+      h1 {
+        color: blue;
+      }
+      #Cristiano-Ronaldo {
+        color: red;
+      }
+      #Throphies-Won {
+        color: blue;
+      }
+      #Team-palyed-for {
+        color: gold;
+      }
+      .list-element {
+        color: gold;
+      }
+      .Team-palyed-for {
+        color: blue;
+      }
+      [href="https://en.wikipedia.org/wiki/Lionel_Messi"]{
+        color: crimson;
+      }
+      .list-element:hover{
+        font-size: 4rem;
+        color: red;
+      }
+      a:hover{
+        font-size: 4rem;
+      }
+      #Team-palyed-for::before{
+        content: "Joy is Coming"
+      }
+      #Team-palyed-for::after{
+        content: "Joy is Coming"
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Lionel Messi</h1>
+    </header>
+    <h1 id="Cristiano-Ronaldo">Cristiano Ronaldo</h1>
+    <section id="photo-section">
+      <div>
+        <img src="messi.jpg" alt="Greatest Footballer" width="500" />
+      </div>
+    </section>
+    <section id="details-section">
+      <table>
+        <tr>
+          <td><strong>Full Name:</strong></td>
+          <td>Lionel Andreas Messi</td>
+        </tr>
+        <tr>
+          <td><strong>Age:</strong></td>
+          <td>38</td>
+        </tr>
+        <tr>
+          <td><strong>Place of Birth:</strong></td>
+          <td>Rosario (city in Agentina)</td>
+        </tr>
+        <tr>
+          <td><strong>Natinalty:</strong></td>
+          <td>Agentine</td>
+        </tr>
+      </table>
+    </section>
+    <section id="team-selection">
+      <h2 id="Team-palyed-for">Teams palyed for</h2>
+      <ul class="Team-palyed-for">
+        <li>Agentina</li>
+        <li>Fc Barcelona</li>
+        <li>Paris Saint Germin</li>
+        <li>Inter Miami fc</li>
+      </ul>
+    </section>
+
+    <section id="trophies won">
+      <h2 id="Throphies-Won">Throphies Won</h2>
+      <ol class="list-element">
+        <li>Fifa World Cup</li>
+        <li>Fifa Club World Cup</li>
+        <li>Champions League</li>
+      </ol>
+    </section>
+
+    <hr style="border-radius: red" />
+    <a href="https://en.wikipedia.org/wiki/Lionel_Messi" target="_blank">Read more about him</a>
+    <br />
+    <a href=""target="_blank">link to my youtube</a>
+  </body>
+</html>
